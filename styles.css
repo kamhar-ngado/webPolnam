@@ -109,20 +109,26 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-size: 2em;
   margin-top: 10px;
-  margin-bottom: 10pt;
-  margin-left: 10pt;
-  margin-right: 10pt;
+  margin-bottom: 0;
+  margin-left: 20pt;
+  margin-right: 20px;
   color: rgb(61, 60, 60);
 }
 
 .prerequites {
   font-family: "Roboto", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-top: 10px;
   margin-bottom: 10pt;
-  margin-left: 10pt;
+  margin-left: 20pt;
   margin-right: 10pt;
   color: rgb(61, 60, 60);
+}
+
+ol li {
+  list-style-type: upper-greek;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .fontBold {
@@ -131,6 +137,7 @@ h2 {
 
 table {
   margin-left: 20px;
+  margin-right: 20px;
   border-collapse: collapse;
 }
 
