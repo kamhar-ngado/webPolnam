@@ -115,6 +115,20 @@ h2 {
   color: rgb(61, 60, 60);
 }
 
+.prerequites {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 10pt;
+  margin-left: 10pt;
+  margin-right: 10pt;
+  color: rgb(61, 60, 60);
+}
+
+.fontBold {
+  font-weight: bold;
+}
+
 table {
   margin-left: 20px;
   border-collapse: collapse;
