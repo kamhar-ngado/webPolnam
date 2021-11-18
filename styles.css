@@ -177,7 +177,29 @@ table ul li {
   margin-bottom: 0;
   margin-left: 20pt;
   margin-right: 20px;
+  z-index: -1;
 }
+
+
+
+.tutorial li img:hover {
+  top: -3px;
+}
+
+
+
+img {
+  width: 60%;
+}
+
+
+@media only screen and (max-width: 700px){
+  img {
+    width: 100%;
+  }
+}
+
+
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
