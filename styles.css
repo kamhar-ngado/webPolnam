@@ -79,6 +79,17 @@ a {
   color: var(--hijau);
 }
 
+.photo {
+  border-radius: 100%;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .content {
   font-size: 12pt;
   margin-left: 20px;
@@ -106,8 +117,9 @@ a {
 }
 
 h2 {
+  text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-top: 10px;
   margin-bottom: 0;
   margin-left: 20pt;
@@ -180,26 +192,27 @@ table ul li {
   z-index: -1;
 }
 
-
-
-.tutorial li img:hover {
-  top: -3px;
-}
-
-
-
 img {
   width: 60%;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
+ .lesson {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 20pt;
+  margin-right: 20px;
+  color: rgb(61, 60, 60);
+}
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   img {
     width: 100%;
   }
 }
-
-
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
