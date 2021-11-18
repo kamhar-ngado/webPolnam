@@ -163,8 +163,20 @@ table ul li {
   margin-left: 20px;
 }
 
-#download{
+#download {
   color: blue;
+}
+
+.tutorial {
+  padding: 7px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  color: rgb(61, 60, 60);
+  border-width: 3px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 20pt;
+  margin-right: 20px;
 }
 
 @media only screen and (max-width: 768px) {
